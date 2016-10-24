@@ -1,0 +1,26 @@
+git clone ssh://path_for_file
+
+List branches:
+git branch: list local branches
+git branch –a: list all branches (local and remotes) 
+
+Create branch:
+git branch <branch>: create branch
+git checkout –b <new_branch> <commit or branch> : create <new_branch> from <commit>
+
+Checkout branch:
+git checkout <branch>
+
+Remotes (a remote is an alias for another git repo) :
+List with: git remote -v
+Add a remote: git remote add <alias> <url>
+(ex: git remote add mainline git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux-2.6.git)
+Get remote branches: git fetch <alias> (ex: git fetch mainline)
+Special remote alias ‘origin’ is automatically created by the command: git clone
+
+Remotes (a remote is an alias for another git repo) :
+List with: git remote -v
+Add a remote: git remote add <alias> <url>
+(ex: git remote add mainline git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux-2.6.git)
+Get remote branches: git fetch <alias> (ex: git fetch mainline)
+Special remote alias ‘origin’ is automatically created by the command: git clone
